@@ -53,7 +53,7 @@ hold.addEventListener('click', function () {
     scores[currentPlayer] += currentscore;
     document.querySelector(`.score-${currentPlayer}`).textContent = scores[currentPlayer];
    switchPlayer();
-   if(scores[currentPlayer]>=10){
+   if(scores[currentPlayer]>=100){
        document.querySelector(`.player-${currentPlayer}`).classList.add('winner');
        document.querySelector(`.player-${currentPlayer}`).classList.remove('active-player');
        document.querySelector(`.heading-${currentPlayer}`).textContent = 'WON 🎉✨';
