@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color: rgb(157, 157, 229);
+}
+.screen{
+    display: flex;
+    height: 75vh;
+    width: 80vw;
+    background-color: blueviolet;
+    justify-content: center;
+    margin:2% 10%;
+    border-radius: 10px;
+    border: none;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    color: white;
+   
+}
+.heading{
+    margin: 15px 0;
+}
+.btn{
+    position: absolute;
+    height: 5%;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 5px 5px 2px;
+    cursor: pointer;
+}
+.new{
+    top: 25%;
+}
+.roll{
+   top: 65%;
+}
+.hold{
+    top: 72%;
+}
+.image{
+    position: absolute;
+    top: 45%;
+    height: 12%;
+}
+.current-0{
+    position: absolute;
+    bottom: 20%;
+}
+.current-1{
+    position: absolute;
+    bottom: 20%;
+}
+.current{
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(122, 58, 182);
+}
+.hidden{
+    display: none;
+}
+.active-player{
+    background-color: rgb(167, 119, 212);
+
+}
+#rohit{
+    width: 3%;
+    margin: 0 20px;
+}
+.intro{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.winner{
+    background-color: rgb(88, 207, 167);
+}
