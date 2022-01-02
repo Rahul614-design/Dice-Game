@@ -65,7 +65,7 @@ body{
 .current{
     text-align: center;
     width: 50%;
-    height: 50%;
+    height: 20%;
     background-color: rgb(122, 58, 182);
 }
 .hidden{
