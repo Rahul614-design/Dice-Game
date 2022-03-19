@@ -52,7 +52,7 @@ hold.addEventListener('click', function () {
     if(playing){
     scores[currentPlayer] += currentscore;
     document.querySelector(`.score-${currentPlayer}`).textContent = scores[currentPlayer];
-   switchPlayer();
+   
    if(scores[currentPlayer]>=100){
        document.querySelector(`.player-${currentPlayer}`).classList.add('winner');
        document.querySelector(`.player-${currentPlayer}`).classList.remove('active-player');
@@ -60,6 +60,7 @@ hold.addEventListener('click', function () {
        document.querySelector(`.player-${currentPlayer}`).style.color = 'black';
        playing = false;
     }
+        switchPlayer();
 }
 });
 newGame.addEventListener('click',function(){
